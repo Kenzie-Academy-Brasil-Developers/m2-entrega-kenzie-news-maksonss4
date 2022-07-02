@@ -10,7 +10,6 @@ class app {
 
     static async template (noticia) {  
         const ul = document.querySelector("ul")
-        console.log(ul)
         
         const li = document.createElement("li")
         const figure = document.createElement("figure")
@@ -38,7 +37,6 @@ class app {
         li.append(figure, divContainer)
 
         ul.append(li)
-
     }
 }
 app.requisicao()
